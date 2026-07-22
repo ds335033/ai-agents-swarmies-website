@@ -87,7 +87,7 @@ const LandingPage = () => {
           <iframe 
             width="100%" 
             height="100%" 
-            src="https://www.youtube.com/embed/EnOtPZXUqJI?autoplay=0&rel=0" 
+            src="https://www.youtube.com/embed/gMYR-JkmIFc?autoplay=0&rel=0" 
             title="AI Agents & Swarm Intelligence Masterclass" 
             frameBorder="0" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
