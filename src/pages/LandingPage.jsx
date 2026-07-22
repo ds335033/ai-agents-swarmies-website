@@ -58,10 +58,29 @@ const LandingPage = () => {
         </div>
       </section>
 
+      {/* Official Architecture Diagrams Showcase */}
+      <section style={{ margin: '4rem 0' }}>
+        <div style={{ textAlign: 'center', marginBottom: '2.5rem' }}>
+          <h2 className="text-gradient-purple" style={{ fontSize: '2.8rem' }}>AI AGENTS ANATOMY & TYPES</h2>
+          <p style={{ color: 'var(--text-secondary)', fontSize: '1.1rem', marginTop: '0.5rem' }}>Master the core structural components and classification models of modern AI agents.</p>
+        </div>
+
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(450px, 1fr))', gap: '2rem' }}>
+          <div className="glass-panel" style={{ padding: '1.2rem', borderRadius: '24px', textAlign: 'center' }}>
+            <h3 style={{ color: 'var(--accent-cyan)', marginBottom: '1rem' }}>Components of AI Agents</h3>
+            <img src="/agent_components.png" alt="What are the Components of AI Agents?" style={{ width: '100%', borderRadius: '16px', display: 'block' }} />
+          </div>
+          <div className="glass-panel" style={{ padding: '1.2rem', borderRadius: '24px', textAlign: 'center' }}>
+            <h3 style={{ color: 'var(--accent-purple)', marginBottom: '1rem' }}>Classification Types of AI Agents</h3>
+            <img src="/agent_types.jpg" alt="Types of AI Agents" style={{ width: '100%', borderRadius: '16px', display: 'block' }} />
+          </div>
+        </div>
+      </section>
+
       {/* Embedded Video Masterclass */}
       <section style={{ margin: '4rem 0' }}>
         <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
-          <h2 className="text-gradient-purple" style={{ fontSize: '2.5rem' }}>FEATURED VIDEO MASTERCLASS</h2>
+          <h2 className="text-gradient-cyan" style={{ fontSize: '2.5rem' }}>FEATURED VIDEO MASTERCLASS</h2>
           <p style={{ color: 'var(--text-secondary)' }}>Explore how autonomous agents and vibe coding transform modern development.</p>
         </div>
         <div style={{ width: '100%', maxWidth: '1000px', margin: '0 auto', aspectRatio: '16/9', borderRadius: '24px', overflow: 'hidden', boxShadow: '0 20px 60px rgba(129,140,248,0.3)', border: '1px solid var(--glass-border)' }}>
